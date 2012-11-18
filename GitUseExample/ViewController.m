@@ -29,6 +29,7 @@
 - (IBAction)NSLogapplicationdidfinishlaunchingclickTheButton:(id)sender
 {
     NSLog(@"New in master");
+    NSLog(@"Added in new branch");
 }
 
 @end
