@@ -30,6 +30,8 @@
 {
     NSLog(@"New in master");
     NSLog(@"Added in new branch");
+    
+    // new change in new branch
 }
 
 @end
