@@ -28,6 +28,7 @@
 
 - (IBAction)NSLogapplicationdidfinishlaunchingclickTheButton:(id)sender
 {
+    NSLog(@"New in master");
 }
 
 @end
