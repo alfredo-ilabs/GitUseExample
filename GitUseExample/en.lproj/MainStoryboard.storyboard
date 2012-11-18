@@ -25,11 +25,18 @@
                                     <action selector="NSLogapplicationdidfinishlaunchingclickTheButton:" destination="2" eventType="touchUpInside" id="5KF-qG-mMY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zX6-Ec-lmF">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5gh-NK-Gd3" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="G4N-oI-cjA"/>
                             <constraint firstItem="5gh-NK-Gd3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="GFb-TB-LX2"/>
+                            <constraint firstItem="zX6-Ec-lmF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="149" id="N5R-AM-PbE"/>
+                            <constraint firstItem="zX6-Ec-lmF" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="O7i-lv-qb0"/>
+                            <constraint firstItem="zX6-Ec-lmF" firstAttribute="centerX" secondItem="5gh-NK-Gd3" secondAttribute="centerX" type="default" id="mLc-W0-lxn"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,7 +52,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="NSLogapplicationdidfinishlaunchingclickTheButton:"/>
-                <relationship kind="outlet" name="clickTheButton" candidateClass="UIButton"/>
             </relationships>
         </class>
     </classes>
